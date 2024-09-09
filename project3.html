@@ -1,0 +1,124 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    
+</head>
+<style>
+
+body {
+    font-family: Arial, 
+sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.bg-img {
+            background-image:url("image1.jpgs");
+            min-height: 100vh;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+.product-container {
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-image {
+    width: 40%;
+    margin: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-details {
+    width: 60%;
+    margin: 20px;
+}
+
+
+
+.product-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #444;
+}
+.product-details h1{
+    color: brown;
+
+}
+.product-details h3{
+     color:blueviolet;
+    
+}
+   
+.product-details h4{
+    color:black;
+    
+}
+.product-details h1{
+    color:brown;
+    
+}
+
+
+
+</style>
+
+<body>
+    <div class="product-container">
+        <div class="product-image">
+            <img src="cakes1.jpg" alt="Product Image">
+        </div>
+        <div class="product-details">
+
+            <h1 >Product Name</h1>
+            <h3>BAKERY PRODUCT:<h3>
+                <h4><b>CHOCOLATE CAKE</b></h4><br>
+            
+             <h1>Product Description</h1>
+             <p><b>Indulge inthe Rich, Velvety taste of our decadent chocolate cake, made with high-quality Cocoa and Dark Chocolate. Moist, Fluffy, and Utterl Iyrresistible,            
+                this cake it perfect for Satisfying any Sweet Tooth.</b></p>
+            <br>
+
+            <h1>Price:</h1>
+                <h4><b>300</b></h4>
+
+      
+
+            <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+s
